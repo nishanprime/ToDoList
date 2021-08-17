@@ -1,0 +1,28 @@
+# GET http://localhost:5000/api/users/mytodos HTTP/1.1
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxMTlkNjgzNzkxNThlNDA4MWQwYzA4ZCIsImlhdCI6MTYyOTA4MzMyMywiZXhwIjoxNjMxNjc1MzIzfQ.mX3IkgxqywJEoNp7qYmcsNWfBF2Ic7XnYcLcqIrToaQ
+
+# POST http://localhost:5000/api/users/mytodos HTTP/1.1
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxMTllM2I5NjY4NTE0NGUyYWI0Yjc0OCIsImlhdCI6MTYyOTA4NjY2MSwiZXhwIjoxNjMxNjc4NjYxfQ.2uEucuCF-_We1HMwTlurZxXQCN2eHqTAo9J34wfUqIE
+# Content-Type: application/json
+
+# {
+#    "title":"Hello",
+#    "content":"How are you all good",
+#    "createNow":true,
+#    "toDoListId":"6119e3b96685144e2ab4b750"
+# }
+POST http://localhost:5000/api/users/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "username":"newuser",
+    "password":"12345",
+}
+
+# GET http://localhost:5000/api/users/mytodos HTTP/1.1
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxMTYxZTJmOWQ3ZTQ1YWFmOGQ0MzQ5MiIsImlhdCI6MTYyODgzOTUwMCwiZXhwIjoxNjMxNDMxNTAwfQ.PNZuux1TdJMQoEi6jXUNReb5shWvzYfOv24M-7EmrGo
+
+
+# DELETE http://localhost:5000/todos/6112c454bcfadb4a2f55432b  HTTP/1.1
+
+//eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxMTVlOGYyMTVhZGE4OTE5YzAwYTA3MSIsImlhdCI6MTYyODgzNzUyNywiZXhwIjoxNjMxNDI5NTI3fQ.zfdWlIrFughn_L89BEarCmbCbN2mJNl9MkYFbZiDduk
